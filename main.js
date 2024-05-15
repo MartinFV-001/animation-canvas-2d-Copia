@@ -156,7 +156,7 @@ function updateCircles() {
     } else {
         ctx.font = "30px Arial";
         ctx.fillStyle = "#fcfcfc";
-        ctx.fillText("Juego terminado, Puntuación: " + score + "No te desanimes", window_width / 2, window_height / 2); 
+        ctx.fillText("Juego terminado, Puntuación: " + score + " No te desanimes", window_width / 2, window_height / 2); 
     }
 }
 
