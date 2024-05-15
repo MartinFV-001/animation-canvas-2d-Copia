@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poo En Canvas</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    canvas {
-      border: 1px solid black;
-    }
-  </style>  
+    <title>Interaccion con el circulo</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .canvas-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #canvas {
+            width: 75%;
+            height: auto;
+        }
+    </style>
 </head>
-<body class="xxl">
-    <canvas id="canvas" width="100px" height="100px"> </canvas>
-
+<body>
+    <div class="container-fluid canvas-container">
+        <canvas id="canvas"></canvas>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
