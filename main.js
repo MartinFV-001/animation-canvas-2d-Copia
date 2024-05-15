@@ -25,10 +25,10 @@ function xyMouse(event) {
 }
 
 function drawMousePosition(context) {
-    context.font = "20px Arial";
+    context.font = "40px Arial";
     context.fillStyle = "#fcfcfc"; 
-    context.fillText("Nivel: " + level + " Puntuación: " + score, window_width - 200, 20);
-    context.fillText("X: " + mouseX.toFixed(2) + " Y: " + mouseY.toFixed(2), 100, 20);
+    context.fillText("Nivel: " + level + " Puntuación: " + score, window_width - 200, 40);
+    context.fillText("X: " + mouseX.toFixed(2) + " Y: " + mouseY.toFixed(2), 200, 40);
 }
 
 class Circle {
